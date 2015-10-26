@@ -22,7 +22,9 @@ import org.codehaus.jackson.map.ObjectMapper;
  * @author Alhuthaif
  */
 public class FuelStations {
-    private static final String API_KEY = "yskawt7yc5ssu729zra8a8yq"; // TODO: put your API key here
+
+    private static final String API_KEY = "ps6739qc7cuck7r95rv77kvj"; 
+    
 
    public List<Hashtable> getFuelstationData(String query, String location) throws Exception{
         List<Hashtable> fuelStations = new ArrayList<Hashtable>();
